@@ -49,6 +49,63 @@ table {
 
 /* END OF RESET - Start of Your CSS*/
 
+
+body {
+	width:1024px;
+	margin:12px auto;
+	padding:20px 20px 45px 20px;
+	font-family: Arial, sans serif;
+	text-decoration: none;
+	line-height: 14px;
+	border: 1px solid black;
+}
 h1 {
-	color:red;
+	font-size: 24px;
+	font-weight: bold;
+}
+h2 {
+	text-align: center
+}
+header {
+	height: 16px;
+}
+header ul {
+	margin-top:-12px;
+}
+header ul li {
+	float: right;
+	margin: 0 12px;
+}
+footer ul {
+	margin:0 auto;
+	width: 140px;
+}
+footer ul li {
+	float: left;
+	margin: 0 12px;
+}
+.clear{
+	clear: both;
+}
+h2 {
+	font-size: 16px;
+	font-weight: none;
+}
+contentMain {
+	line-height: 18px;
+}
+p {
+	margin-top: 6px
+}
+h6 {
+	text-align: center;
+	font-size: 12px;
+	width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.centered {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
