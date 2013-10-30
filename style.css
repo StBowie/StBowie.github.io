@@ -58,6 +58,8 @@ body {
 	text-decoration: none;
 	line-height: 14px;
 	border: 1px solid black;
+}
+body {
 	background-image: url('http://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Michigan_Wolverines_Block_M.png/200px-Michigan_Wolverines_Block_M.png');
 	background-position: center center;
 }
