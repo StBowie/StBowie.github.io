@@ -54,7 +54,7 @@ body {
 	width:1024px;
 	margin:12px auto;
 	padding:20px 20px 45px 20px;
-	font-family: Arial, sans serif;
+	font-family: Arial, sans-serif;
 	text-decoration: none;
 	line-height: 14px;
 	border: 1px solid black;
@@ -92,7 +92,7 @@ h2 {
 	font-weight: none;
 }
 contentMain {
-	line-height: 18px;
+	line-height: 30px;
 }
 p {
 	margin-top: 6px
