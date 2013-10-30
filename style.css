@@ -53,11 +53,10 @@ table {
 body {
 	width:1024px;
 	margin:12px auto;
-	padding:20px 20px 45px 20px;
 	font-family: Arial, sans-serif;
 	text-decoration: none;
 	line-height: 14px;
-	border: 1px solid black;
+	background-color: #54b1ef;
 }
 h1 {
 	font-size: 24px;
@@ -74,7 +73,12 @@ header ul {
 }
 header ul li {
 	float: right;
-	margin: 0 12px;
+	border-radius: 5px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	margin: 5px 12px;
+	text-align: center;
+	padding: 5px;
 }
 footer ul {
 	margin:0 auto;
@@ -137,3 +141,19 @@ img.centered {
     margin-left: auto;
     margin-right: auto;
 }
+header li a {
+	text-decoration: none;
+	color: #3D59AB;
+}
+table.myTable {
+	border-collapse:collapse;
+}
+table.myTable td, table.myTable th {
+	border:1px solid black;padding:5px;
+}
+.innercolor {
+	background-color: white;
+	padding:20px 20px 45px 20px;
+	border: 1px solid black;
+}
+
