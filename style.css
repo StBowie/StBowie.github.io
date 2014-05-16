@@ -121,10 +121,11 @@ h4 {
 	list-style: disc;
 	list-style-position: outside;
 	padding-left: 18px;
+	line-height: 120%;
 }
 p {
-	margin-top: 6px
-	line-height:200%;
+	margin-top: 6px;
+	line-height: 120%;
 }
 h5 {
 	
@@ -157,4 +158,6 @@ table.myTable td, table.myTable th {
 	padding:20px 20px 45px 20px;
 	border: 1px solid black;
 }
-
+strong {
+	font-weight:bold;
+}
